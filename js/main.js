@@ -1,10 +1,10 @@
-"use strict";
+'use strict';
 
-const number = document.querySelector(".js-numberbox");
-const clue = document.querySelector(".js-clue");
-const attempts = document.querySelector(".js-attempts");
-const button = document.querySelector(".js-btn");
-const counter = document.querySelector(".js-attempts");
+const number = document.querySelector('.js-numberbox');
+const clue = document.querySelector('.js-clue');
+const attempts = document.querySelector('.js-attempts');
+const button = document.querySelector('.js-btn');
+const counter = document.querySelector('.js-attempts');
 
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
@@ -35,4 +35,4 @@ function counterAttemps() {
   counter.innerHTML = `Numero de intentos: ` + counterClick;
 }
 
-button.addEventListener("click", getNumber);
+button.addEventListener('click', getNumber);

@@ -4,19 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evaluación intermedia módulo 2</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css/main.css" />
   </head>
   <body>
-    <h1 class="title">Adivina el número</h1>
-    <form>
-      <label for="number" id="number">Introduce aquí tu número:</label>
-      <input type="number" placeholder="Ejemplo: 33" class="js-numberbox numberbox" />
-    </form>
-    <input type="button" class="js-btn btn" value="Prueba" />
-    <div>
-      <p class="js-clue clue">Pista: Escribe el número y dale a Prueba</p>
-      <p class="js-attempts attemps">Número de intentos: 0</p>
-    </div>
+    <header>
+      <h1 class="title">Adivina el número</h1>
+      <h2 class="subtitle">Estoy pensando en un número, ¿sabrías decirme cuál es? 🔮</h2>
+    </header>
+    <main>
+      <form class="form">
+        <label for="number" id="number">Escribelo aquí:</label>
+        <input type="number" placeholder=" Ejemplo: 33" class="js-numberbox numberbox" />
+      </form>
+      <div class="test">
+        <input type="button" class="js-btn btn" value="¡Prueba!" />
+      </div>
+      <div class="result">
+        <p class="js-clue clue">Pista: Escribe el número y dale a Prueba</p>
+        <p class="js-attempts attemps">Número de intentos: 0</p>
+      </div>
+    </main>
     <script type="text/javascript" src="./js/main.js"></script>
   </body>
 </html>
