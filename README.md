@@ -1,4 +1,4 @@
-# Adivina-el-numero #
+# Adivina el número #
 
 *Evaluación intermedia Módulo 2 JavaScript*
 
